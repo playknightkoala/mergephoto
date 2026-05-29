@@ -1,0 +1,8 @@
+services:
+  mergephoto:
+    build: .
+    image: mergephoto:latest
+    container_name: mergephoto
+    ports:
+      - "8080:80"
+    restart: unless-stopped

@@ -1,0 +1,24 @@
+{
+  "name": "mergephoto",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-konva": "^18.2.10",
+    "konva": "^9.3.16",
+    "react-image-crop": "^11.0.7",
+    "jspdf": "^2.5.2",
+    "use-image": "^1.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
